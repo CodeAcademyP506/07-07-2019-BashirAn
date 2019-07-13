@@ -1,3 +1,8 @@
+body{
+    background-color: darkslategrey
+}
+
+
 .leftdiv, .rightdiv, .thirddiv {
     border: 1px solid black;
     height: 300px;
@@ -5,12 +10,27 @@
     background: none;
     width: 500px;
     float: left;
+    border-radius:20px
 }
 .rightdiv {
     background: none;
+    position:relative;
+    left:100px
 }
-.thirddiv{
-    background: yellow;
+.flags{
+    background:none;
+    position:relative;
+    top: 220px;
+    right:780px
+}
+.next{
+    background:green;
+    position:relative;
+    top: 210px;
+    border: none;
+    border-radius:10px;
+    padding:10px;
+    
 }
 
 .dragItemOver{
@@ -21,6 +41,7 @@
     height: 30px;
 background: grey;
 border:1px solid #ccc;
+margin:0.5px
 }
 
 .leftdiv{
